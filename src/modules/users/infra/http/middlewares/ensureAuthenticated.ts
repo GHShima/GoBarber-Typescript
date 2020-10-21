@@ -4,6 +4,7 @@ import { verify } from 'jsonwebtoken';
 import authConfig from '@config/auth';
 import AppError from '@shared/errors/AppError';
 
+// eslint-disable-next-line @typescript-eslint/interface-name-prefix
 interface TokenPayload {
   iat: number;
   exp: number;
